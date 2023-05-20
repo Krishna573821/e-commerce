@@ -10,7 +10,8 @@
     "format": "prettier . --write",
     "start:backend": "cd backend && npm run start",
     "start:frontend": "cd frontend && npm run build && cd build && npx serve",
-    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install-deps": "npm i && cd backend && npm i && cd ../frontend && npm i"
   },
   "keywords": [],
   "author": "",
