@@ -26,9 +26,6 @@ const Home = () => {
   };
 
   const d = new Date();
-<<<<<<< HEAD
-=======
->>>>>>> 6aac12f3cbf322f47462b51ec579fcbf27acbd54
   const opacity = (22 - d.getDate()) * 0.5;
 
   return (
