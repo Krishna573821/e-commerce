@@ -25,11 +25,8 @@ const Home = () => {
     });
   };
 
-  const d = new Date();
-  const opacity = (22 - d.getDate()) * 0.5;
-
   return (
-    <div style={{ opacity }}>
+    <div>
       <Banner />
       <div className="main-content">
         <div className="layout">
